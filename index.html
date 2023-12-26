@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Document</title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <header>
+     
+      <!-- navbar start -->
+      <nav class="navbar img-fluid">
+        <div class="container-fluid container">
+          <a class="navbar-brand"
+            ><img
+              width="163"
+              height="42"
+              src="./images/logo-inner.png"
+              alt=""
+            />
+          </a>
+
+          <!-- tag list start -->
+          <nav class="d-flex">
+            <div class="d-flex">
+              <ul class="d-flex list-unstyled">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-decoration-none"
+                    style="color: #ffc61a"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">HomePage1</a></li>
+                    <li><a class="dropdown-item" href="#">HomePage2</a></li>
+                    <li><a class="dropdown-item" href="#">HomePage3</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-decoration-none" href="#">Get Taxi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-decoration-none" href="#">Services</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-decoration-none"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Our Blog
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#">Blog One Columns</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Blog Two Columns</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Blog Three Columns</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Gallary
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#">Gallary 2-columns</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Gallary 3-columns</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Gallary 4-columns</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Shop</a></li>
+                    <li><a class="dropdown-item" href="#">Cart</a></li>
+                    <li><a class="dropdown-item" href="#">CheckOut</a></li>
+                    <li><a class="dropdown-item" href="#">My Account</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Contacts
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Contacts</a></li>
+                    <li><a class="dropdown-item" href="#">Contacts2</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#">TypoGraphy</a>
+                      <ul class="submenu dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Headers</a></li>
+                        <li><a class="dropdown-item" href="#">Text</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Text Columns</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Table</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Separators</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">FormElements</a>
+                      <ul class="nav-item dropdown">
+                        <li><a class="nav-item" href="#"></a>Buttons</li>
+                        <li><a class="nav-item" href="#"></a>Forms</li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">ShortCodes</a>
+                      <ul class="nav-item dropdown">
+                        <li><a class="nav-item" href="#"></a>Accordionce</li>
+                        <li><a class="nav-item" href="#"></a>Alerts</li>
+                        <li><a class="nav-item" href="#"></a>Tabs</li>
+                        <li><a class="nav-item" href="#"></a>Text Sliders</li>
+                        <li><a class="nav-item" href="#"></a>ShortCodes</li>
+                      </ul>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">Lists</a>
+                      <ul class="nav-item dropdown">
+                        <li><a class="dropdown-item" href="#">Icons</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Lists and Social Icons</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li><a class="dropdown-item" href="#">Testmonials</a></li>
+                    <li><a class="dropdown-item" href="#">Teams</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a class="nav-item" href="#"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- tag list end -->
+        </div>
+      </nav>
+      <!-- navbar end -->
+
+      <!-- border------------------------------ -->
+      <div class="border container">
+        <!-- <img src="./img/border.png" alt=""> -->
+      </div>
+      <!-- border------------end------------------ -->
+    </header>
+    <!-- header end -->
+
+    <!-- crousel start----------------------------------------- -->
+    <div class="crousel-section">
+          <!-- card start -->
+      <div class="card">
+        <div class="card-heading mt-5 mb-4">GET TAXI <span>ONLINE</span></div>
+        <div class="card-images d-flex">
+          <a href="#"><img src="./img/symbol 1.png" alt="" /></a>
+          <a href="#"><img src="./img/car 2.png" alt="" /></a>
+          <a href="#"><img src="./img/car 3.png" alt="" /></a>
+          <a href="#"><img src="./img/car 4.png" alt="" /></a>
+        </div>
+
+        <div class="form mt-4">
+          <div class="first-row">
+            <div class="mb-3">
+              <input
+                type="address"
+                class="form-control"
+                id=""
+                placeholder="From Address "
+              />
+            </div>
+
+            <div class="mb-3">
+              <input
+                type="address"
+                class="form-control"
+                id=""
+                placeholder="To... "
+              />
+            </div>
+          </div>
+
+          <div class="seconed-row">
+            <div class="mb-3">
+              <input
+                type="address"
+                class="form-control"
+                id=""
+                placeholder="Phone Number "
+              />
+            </div>
+
+            <div class="mb-3">
+              <input
+                type="address"
+                class="form-control"
+                id=""
+                placeholder="Date and Time "
+              />
+            </div>
+          </div>
+        </div>
+
+        <button class="mt-5">GET TAXI</button>
+      </div>
+      <!-- card end -->
+      <!-- crousel  start-->
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img
+              src="./images/homepage-3-bg.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="./images/homepage-3-2-bg.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- crousel  end-->
+    </div>
+    <!-- crousel end-------------------------------------------- -->
+    <!-- contact-section start -->
+    <div class="contact-section d-flex">
+      <div class="mob">
+        <a href=""
+          ><i class="fa-solid fa-phone" style="gap: 3px"></i>800-5-800</a
+        >
+      </div>
+      <div>
+        <a href=""><i class="fa-solid fa-dollar-sign"></i>GETTAXIPARK</a>
+      </div>
+      <div>
+        <a href=""
+          ><i class="fa-solid fa-location-dot"></i>43 2-ND AVENUE, NEW
+          YORK,29004-7153</a
+        >
+      </div>
+      <div class="btn">
+        <a href="">OUR TARIFFS</a>
+      </div>
+    </div>
+    <!-- contact-section end -->
+
+    <!-- services section start-->
+    <div class="services-section container">
+      <div class="heading pt-5">
+        <h3>WELCOME</h3>
+        <h1>OUR SERVICES</h1>
+      </div>
+
+      <div class="services d-flex mt-5">
+        <div>
+          <img src="./img/location.png" alt="" />
+          <h2>RAPID CITY TRANSFER</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+            assumenda inventore temporibus officiis maxime ratione ipsam ab
+            dignissimos neque vitae.
+          </p>
+        </div>
+        <hr />
+
+        <div>
+          <img src="./img/hotel.png" alt="" />
+          <h2>RAPID CITY TRANSFER</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+            assumenda inventore temporibus officiis maxime ratione ipsam ab
+            dignissimos neque vitae.
+          </p>
+        </div>
+        <hr />
+
+        <div>
+          <img src="./img/aeroplane.png" alt="" />
+          <h2>RAPID CITY TRANSFER</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+            assumenda inventore temporibus officiis maxime ratione ipsam ab
+            dignissimos neque vitae.
+          </p>
+        </div>
+        <hr class="break-line" style="border-right: 5px; height: 20px" />
+
+        <div>
+          <img src="./img/briefcase.png" alt="" />
+          <h2>RAPID CITY TRANSFER</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
+            assumenda inventore temporibus officiis maxime ratione ipsam ab
+            dignissimos neque vitae.
+          </p>
+        </div>
+      </div>
+      <!-- services end -->
+    </div>
+    <!-- services section end-->
+
+    <!-- tariffs section start............. -->
+    <div class="tariffs-section">
+      <div class="heading pt-5">
+        <h3>SEE OUR</h3>
+        <h1>TARIFFS</h1>
+      </div>
+
+      <div class="car-catagory container d-flex mt-5">
+        <div class="car">
+          <img src="./images/tariff-1.png" alt="" />
+          <h1>STANDAURT</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis,
+            adipisci!
+          </p>
+          <h1>$20 <span>/km</span></h1>
+        </div>
+
+        <div class="car">
+          <img src="./images/tariff-2.png" alt="" />
+          <h1>BUSINESS</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis,
+            adipisci!
+          </p>
+          <h1>$201 <span>/km</span></h1>
+        </div>
+
+        <div class="car" style="border-color: #ffc61a">
+          <img src="./images/tariff-3.png" alt="" />
+          <h1>VIP</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis,
+            adipisci!
+          </p>
+          <h1>$20 <span>/km</span></h1>
+        </div>
+
+        <div class="car">
+          <img
+            width="200px"
+            height="110px"
+            src="./images/tariff-4.png"
+            alt=""
+          />
+          <h1>BUS-MINIVAN</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis,
+            adipisci!
+          </p>
+          <h1>$10 <span>/km</span></h1>
+        </div>
+      </div>
+    </div>
+    <!-- tariffs section end............. -->
+
+    <!-- benefits-sec start-->
+    <div
+      class="benefits-sec"
+      style="background-image: url(./img/download-bg.jpg)"
+    >
+      <div class="heading pt-5">
+        <h3>GET MORE BENEFITS</h3>
+        <h1 style="color: white">DOWNLOAD THE APP</h1>
+      </div>
+
+      <div class="container d-flex mt-5">
+        <div class="one">
+          <div class="one-1">
+            <div class="d-flex">
+              <h3>01</h3>
+              <span>FAST BOOKING</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis, debitis.
+            </p>
+          </div>
+
+          <div class="one-1">
+            <div class="d-flex">
+              <h3>02</h3>
+              <span>EASY TO USE</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis, debitis.
+            </p>
+          </div>
+        </div>
+        <!-- one close -->
+
+        <div class="one">
+          <img src="./img/mobile.png" alt="" />
+        </div>
+        <!-- one close -->
+
+        <div class="one">
+          <div class="one-1 one-2">
+            <div class="d-flex">
+              <span>GPS SEARCHING</span>
+              <h3>03</h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis, debitis.
+            </p>
+          </div>
+
+          <div class="one-1 one-2">
+            <div class="d-flex">
+              <span>BONUS FOR RIDE</span>
+              <h3>04</h3>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis, debitis.
+            </p>
+          </div>
+        </div>
+        <!-- one close -->
+      </div>
+    </div>
+    <!-- benefits-sec end-->
+
+    <!-- drivers- section start-->
+    <div class="drivers-section container">
+      <div class="driver-head pt-5 pb-5 container">
+        <h3>FOR DRIVERS</h3>
+        <h1>DO YOU WANT TO EARN WITH US</h1>
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+        corrupti dolorem itaque deserunt architecto aliquam id commodi nemo
+        suscipit. At, ratione magnam recusandae.
+      </p>
+
+      <div class="check-items mt-5 d-flex">
+        <ul class="check two-col strong">
+          <li><i class="fa-solid fa-check"></i>Luxury cars</li>
+          <li><i class="fa-solid fa-check"></i>No fee</li>
+          <li><i class="fa-solid fa-check"></i>Weekly payment</li>
+        </ul>
+        <ul class="check two-col strong">
+          <li><i class="fa-solid fa-check"></i>Fixed price</li>
+          <li><i class="fa-solid fa-check"></i>Good applicaton</li>
+          <li><i class="fa-solid fa-check"></i>Stable orders</li>
+        </ul>
+      </div>
+
+      <div class="btn mt-5 mb-5">
+        <a href="">BECOME A DRIVER</a>
+      </div>
+    </div>
+    <!-- drivers- section end-->
+
+    <!-- Tetimonials section start -->
+
+    <div class="testimonial-section mt-5">
+      <div class="border-line">
+        <img width="100%" src="./img/border.png" alt="" />
+      </div>
+
+      <div class="heading pt-5 pb-5">
+        <h3>HAPPY CLIENT'S</h3>
+        <h1>TESTIMONIALS</h1>
+      </div>
+
+      <div class="fb-card d-flex container">
+        <div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nostrum
+            non possimus excepturi? Id, repudiandae hic? Quaerat id sit et quasi
+            accusamus numquam blanditiis enim incidunt dolores explicabo, esse
+            deserunt corporis, sint fugit maiores maxime? Asperiores, eius
+            molestiae a quos ratione, veniam cupiditate minus et ut officiis
+            voluptate quas reprehenderit?
+          </p>
+          <h1 class="mt-5"><i class="fa-solid fa-quote-left"></i></h1>
+          <h6>PATRICK JAMES</h6>
+          <img src="./img/client-4.jpg" alt="" />
+        </div>
+
+        <div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nostrum
+            non possimus excepturi? Id, repudiandae hic? Quaerat id sit et quasi
+            accusamus numquam blanditiis enim incidunt dolores explicabo, esse
+            deserunt corporis, sint fugit maiores maxime? Asperiores, eius
+            molestiae a quos ratione, veniam cupiditate minus et ut officiis
+            voluptate quas reprehenderit?
+          </p>
+          <h1 class="mt-5"><i class="fa-solid fa-quote-left"></i></h1>
+          <h6>PATRICK JAMES</h6>
+          <img src="./img/client-5.jpg" alt="" />
+        </div>
+
+        <div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nostrum
+            non possimus excepturi? Id, repudiandae hic? Quaerat id sit et quasi
+            accusamus numquam blanditiis enim incidunt dolores explicabo, esse
+            deserunt corporis, sint fugit maiores maxime? Asperiores, eius
+            molestiae a quos ratione, veniam cupiditate minus et ut officiis
+            voluptate quas reprehenderit?
+          </p>
+          <h1 class="mt-5"><i class="fa-solid fa-quote-left"></i></h1>
+          <h6>PATRICK JAMES</h6>
+          <img src="./img/client-1.jpg" alt="" />
+        </div>
+      </div>
+
+      <div>
+        <h4 class="mt-5 ms-4" style="text-align: center">
+          <i class="fa-solid fa-caret-left"></i>
+          <i class="fa-solid fa-caret-right"></i>
+        </h4>
+      </div>
+
+      <div class="mt-5" style="text-align: center">
+        <img src="./img/banner-1-4.png" alt="" />
+        <img src="./img/banner-2-2.png" alt="" />
+      </div>
+    </div>
+    <!-- Tetimonials section end -->
+
+    <!-- partners section start -->
+    <div class="partners-section">
+      <div class="container d-flex">
+        <div class="partners-head pt-5 pb-5 container">
+          <h3>OUR PARTNERS</h3>
+          <h1>AND CLIENTS</h1>
+        </div>
+        <div class="tech-category mt-5">
+          <img src="./img/partner-2.png" alt="" />
+          <img src="./img/partner-1.png" alt="" />
+          <img src="./img/partner-3.png" alt="" />
+          <img src="./img/partner-3.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- partners section end -->
+
+    <!-- footer  start -->
+    <div class="footer bg-dark">
+      <div class="container d-flex">
+        <div class="col-4">
+          <h4>ABOUT US</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+            architecto dolor id. Cum dicta quam voluptate maiores a, eos
+            distinctio in magnam consequuntur, illo soluta.
+          </p>
+        </div>
+
+        <div class="col-4">
+          <h4 style="margin-left: 28px">EXPLORE</h4>
+          <ul class="link d-flex">
+            <div class="col-6">
+              <li>
+                <a href=""><i class="fa-solid fa-greater-than"></i>Gallary</a>
+              </li>
+
+              <li>
+                <a href=""
+                  ><i class="fa-solid fa-greater-than"></i>Testimonials</a
+                >
+              </li>
+              <li>
+                <a href=""><i class="fa-solid fa-greater-than"></i>Services</a>
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa-solid fa-greater-than"></i>ShortCodes</a
+                >
+              </li>
+            </div>
+            <div class="col-6">
+              <li>
+                <a href=""><i class="fa-solid fa-greater-than"></i>Contacts</a>
+              </li>
+              <li>
+                <a href=""><i class="fa-solid fa-greater-than"></i>Blog</a>
+              </li>
+              <li>
+                <a href=""><i class="fa-solid fa-greater-than"></i>Get Taxi</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+
+        <div class="col-4">
+          <h4>CONTACT US</h4>
+          <div class="address">
+            <strong>Address:</strong>
+            "43 2-nd Avenue, New York, NY 29004-7153"
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <h6 class="container">
+        Like-thems
+        <span
+          >2017 <i class="fa-regular fa-copyright"></i> All Rights Reserved
+        </span>
+        Terms of use
+      </h6>
+    </div>
+    <!-- footer  end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
